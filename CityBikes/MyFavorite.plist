@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ohm-Hochschule (Wassertorstr.)</key>
+	<dict>
+		<key>longitude</key>
+		<string>11.095933914185</string>
+		<key>latitude</key>
+		<string>49.452632522439</string>
+		<key>country</key>
+		<string>DE</string>
+		<key>cityId</key>
+		<string>norisbike-nurnberg</string>
+		<key>stationId</key>
+		<string>d5e4ca701943a5986142419c92f2ba68</string>
+	</dict>
+	<key>U-Bhf Opernhaus (Germanisches Nationalmuseum)</key>
+	<dict>
+		<key>stationId</key>
+		<string>46c18c9cb61fe82bacf5b86958b5d984</string>
+		<key>cityId</key>
+		<string>norisbike-nurnberg</string>
+		<key>country</key>
+		<string>DE</string>
+		<key>latitude</key>
+		<string>49.447097893593</string>
+		<key>longitude</key>
+		<string>11.074706912041</string>
+	</dict>
+</dict>
+</plist>

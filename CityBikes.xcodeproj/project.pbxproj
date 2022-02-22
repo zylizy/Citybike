@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D712065C21B474360083F373 /* AuthenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712065B21B474360083F373 /* AuthenViewController.swift */; };
+		D712066221B5A5360083F373 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712066121B5A5360083F373 /* PasswordViewController.swift */; };
+		D712067121B623C60083F373 /* EnterPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712067021B623C60083F373 /* EnterPasswordViewController.swift */; };
+		D712067D21B762DC0083F373 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712067C21B762DC0083F373 /* CitiesTableViewController.swift */; };
+		D712067F21B762EA0083F373 /* StationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712067E21B762E90083F373 /* StationsTableViewController.swift */; };
+		D712068121B764210083F373 /* StationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712068021B764210083F373 /* StationsTableViewCell.swift */; };
+		D712068321B764FD0083F373 /* MyFavorite.plist in Resources */ = {isa = PBXBuildFile; fileRef = D712068221B764FD0083F373 /* MyFavorite.plist */; };
+		D712068521B7650A0083F373 /* StationMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712068421B7650A0083F373 /* StationMapViewController.swift */; };
+		D712068721B765110083F373 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712068621B765110083F373 /* DetailsViewController.swift */; };
+		D712068B21B7892A0083F373 /* MyFavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712068A21B7892A0083F373 /* MyFavoritesTableViewController.swift */; };
+		D712068D21B794D20083F373 /* AddStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712068C21B794D20083F373 /* AddStationViewController.swift */; };
+		FA22236521A229AD0066373A /* ShowBikeStationOnMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22236421A229AD0066373A /* ShowBikeStationOnMapViewController.swift */; };
+		FA22236721A229CD0066373A /* ShowDetailsInformationBikeStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22236621A229CD0066373A /* ShowDetailsInformationBikeStationViewController.swift */; };
+		FA24B553219F62F700D1427C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24B552219F62F700D1427C /* HomeViewController.swift */; };
+		FA24B556219F641100D1427C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24B555219F641100D1427C /* CoreLocation.framework */; };
+		FA24B558219F641B00D1427C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24B557219F641A00D1427C /* MapKit.framework */; };
+		FA24B55A219F642300D1427C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA24B559219F642300D1427C /* WebKit.framework */; };
+		FA24B55C219F69EB00D1427C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24B55B219F69EB00D1427C /* SearchViewController.swift */; };
+		FA24B55E219F6A4D00D1427C /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24B55D219F6A4D00D1427C /* SearchResultsTableViewController.swift */; };
+		FA263D8B21A3B2E900EBAFA3 /* PhotoLibraryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA263D8A21A3B2E900EBAFA3 /* PhotoLibraryCollectionViewController.swift */; };
+		FA263D8F21A3B58B00EBAFA3 /* PhotoLibraryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA263D8E21A3B58B00EBAFA3 /* PhotoLibraryCollectionViewCell.swift */; };
+		FA41118B2192255C00C1FD27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41118A2192255C00C1FD27 /* AppDelegate.swift */; };
+		FA4111922192255C00C1FD27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4111902192255C00C1FD27 /* Main.storyboard */; };
+		FA4111942192255D00C1FD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4111932192255D00C1FD27 /* Assets.xcassets */; };
+		FA4111972192255D00C1FD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4111952192255D00C1FD27 /* LaunchScreen.storyboard */; };
+		FA7397DF21B4E09000B6EBFB /* photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA7397DE21B4E09000B6EBFB /* photos.plist */; };
+		FAC9205E21BC4AD9005C8BE9 /* ViewDetailedPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC9205D21BC4AD9005C8BE9 /* ViewDetailedPhotoViewController.swift */; };
+		FAF51B4121B43B4A006EFB66 /* TakePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF51B4021B43B4A006EFB66 /* TakePhotoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D712065B21B474360083F373 /* AuthenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenViewController.swift; sourceTree = "<group>"; };
+		D712066121B5A5360083F373 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		D712067021B623C60083F373 /* EnterPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPasswordViewController.swift; sourceTree = "<group>"; };
+		D712067C21B762DC0083F373 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		D712067E21B762E90083F373 /* StationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsTableViewController.swift; sourceTree = "<group>"; };
+		D712068021B764210083F373 /* StationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsTableViewCell.swift; sourceTree = "<group>"; };
+		D712068221B764FD0083F373 /* MyFavorite.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyFavorite.plist; sourceTree = "<group>"; };
+		D712068421B7650A0083F373 /* StationMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationMapViewController.swift; sourceTree = "<group>"; };
+		D712068621B765110083F373 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D712068A21B7892A0083F373 /* MyFavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavoritesTableViewController.swift; sourceTree = "<group>"; };
+		D712068C21B794D20083F373 /* AddStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStationViewController.swift; sourceTree = "<group>"; };
+		FA22236421A229AD0066373A /* ShowBikeStationOnMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowBikeStationOnMapViewController.swift; sourceTree = "<group>"; };
+		FA22236621A229CD0066373A /* ShowDetailsInformationBikeStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsInformationBikeStationViewController.swift; sourceTree = "<group>"; };
+		FA24B552219F62F700D1427C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA24B555219F641100D1427C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA24B557219F641A00D1427C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA24B559219F642300D1427C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FA24B55B219F69EB00D1427C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FA24B55D219F6A4D00D1427C /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		FA263D8A21A3B2E900EBAFA3 /* PhotoLibraryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryCollectionViewController.swift; sourceTree = "<group>"; };
+		FA263D8E21A3B58B00EBAFA3 /* PhotoLibraryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA4111872192255C00C1FD27 /* CityBikes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityBikes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA41118A2192255C00C1FD27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA4111912192255C00C1FD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA4111932192255D00C1FD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4111962192255D00C1FD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA4111982192255D00C1FD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7397DE21B4E09000B6EBFB /* photos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = photos.plist; sourceTree = "<group>"; };
+		FAC9205D21BC4AD9005C8BE9 /* ViewDetailedPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailedPhotoViewController.swift; sourceTree = "<group>"; };
+		FAF51B4021B43B4A006EFB66 /* TakePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4111842192255C00C1FD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA24B55A219F642300D1427C /* WebKit.framework in Frameworks */,
+				FA24B558219F641B00D1427C /* MapKit.framework in Frameworks */,
+				FA24B556219F641100D1427C /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA24B54F219F62B500D1427C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA24B552219F62F700D1427C /* HomeViewController.swift */,
+				FA24B55B219F69EB00D1427C /* SearchViewController.swift */,
+				FA24B55D219F6A4D00D1427C /* SearchResultsTableViewController.swift */,
+				FA22236421A229AD0066373A /* ShowBikeStationOnMapViewController.swift */,
+				FA22236621A229CD0066373A /* ShowDetailsInformationBikeStationViewController.swift */,
+				FA263D8A21A3B2E900EBAFA3 /* PhotoLibraryCollectionViewController.swift */,
+				FA263D8E21A3B58B00EBAFA3 /* PhotoLibraryCollectionViewCell.swift */,
+				FAF51B4021B43B4A006EFB66 /* TakePhotoViewController.swift */,
+				D712065B21B474360083F373 /* AuthenViewController.swift */,
+				D712066121B5A5360083F373 /* PasswordViewController.swift */,
+				D712067021B623C60083F373 /* EnterPasswordViewController.swift */,
+				D712067C21B762DC0083F373 /* CitiesTableViewController.swift */,
+				D712067E21B762E90083F373 /* StationsTableViewController.swift */,
+				D712068021B764210083F373 /* StationsTableViewCell.swift */,
+				D712068421B7650A0083F373 /* StationMapViewController.swift */,
+				D712068621B765110083F373 /* DetailsViewController.swift */,
+				D712068A21B7892A0083F373 /* MyFavoritesTableViewController.swift */,
+				D712068C21B794D20083F373 /* AddStationViewController.swift */,
+				FAC9205D21BC4AD9005C8BE9 /* ViewDetailedPhotoViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		FA24B554219F641000D1427C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA24B559219F642300D1427C /* WebKit.framework */,
+				FA24B557219F641A00D1427C /* MapKit.framework */,
+				FA24B555219F641100D1427C /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA41117E2192255C00C1FD27 = {
+			isa = PBXGroup;
+			children = (
+				FA4111892192255C00C1FD27 /* CityBikes */,
+				FA4111882192255C00C1FD27 /* Products */,
+				FA24B554219F641000D1427C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4111882192255C00C1FD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4111872192255C00C1FD27 /* CityBikes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4111892192255C00C1FD27 /* CityBikes */ = {
+			isa = PBXGroup;
+			children = (
+				FA41118A2192255C00C1FD27 /* AppDelegate.swift */,
+				FA24B54F219F62B500D1427C /* View Controllers */,
+				FA4111902192255C00C1FD27 /* Main.storyboard */,
+				FA4111932192255D00C1FD27 /* Assets.xcassets */,
+				FA4111952192255D00C1FD27 /* LaunchScreen.storyboard */,
+				FA4111982192255D00C1FD27 /* Info.plist */,
+				FA7397DE21B4E09000B6EBFB /* photos.plist */,
+				D712068221B764FD0083F373 /* MyFavorite.plist */,
+			);
+			path = CityBikes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4111862192255C00C1FD27 /* CityBikes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA41119B2192255D00C1FD27 /* Build configuration list for PBXNativeTarget "CityBikes" */;
+			buildPhases = (
+				FA4111832192255C00C1FD27 /* Sources */,
+				FA4111842192255C00C1FD27 /* Frameworks */,
+				FA4111852192255C00C1FD27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CityBikes;
+			productName = CityBikes;
+			productReference = FA4111872192255C00C1FD27 /* CityBikes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA41117F2192255C00C1FD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Thoang Tran";
+				TargetAttributes = {
+					FA4111862192255C00C1FD27 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FA4111822192255C00C1FD27 /* Build configuration list for PBXProject "CityBikes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA41117E2192255C00C1FD27;
+			productRefGroup = FA4111882192255C00C1FD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4111862192255C00C1FD27 /* CityBikes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4111852192255C00C1FD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D712068321B764FD0083F373 /* MyFavorite.plist in Resources */,
+				FA4111972192255D00C1FD27 /* LaunchScreen.storyboard in Resources */,
+				FA4111942192255D00C1FD27 /* Assets.xcassets in Resources */,
+				FA4111922192255C00C1FD27 /* Main.storyboard in Resources */,
+				FA7397DF21B4E09000B6EBFB /* photos.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4111832192255C00C1FD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D712067121B623C60083F373 /* EnterPasswordViewController.swift in Sources */,
+				D712068D21B794D20083F373 /* AddStationViewController.swift in Sources */,
+				FA24B55E219F6A4D00D1427C /* SearchResultsTableViewController.swift in Sources */,
+				D712065C21B474360083F373 /* AuthenViewController.swift in Sources */,
+				FA24B55C219F69EB00D1427C /* SearchViewController.swift in Sources */,
+				D712067D21B762DC0083F373 /* CitiesTableViewController.swift in Sources */,
+				D712066221B5A5360083F373 /* PasswordViewController.swift in Sources */,
+				FA41118B2192255C00C1FD27 /* AppDelegate.swift in Sources */,
+				FA22236521A229AD0066373A /* ShowBikeStationOnMapViewController.swift in Sources */,
+				D712068521B7650A0083F373 /* StationMapViewController.swift in Sources */,
+				D712068721B765110083F373 /* DetailsViewController.swift in Sources */,
+				D712067F21B762EA0083F373 /* StationsTableViewController.swift in Sources */,
+				FAC9205E21BC4AD9005C8BE9 /* ViewDetailedPhotoViewController.swift in Sources */,
+				D712068B21B7892A0083F373 /* MyFavoritesTableViewController.swift in Sources */,
+				FAF51B4121B43B4A006EFB66 /* TakePhotoViewController.swift in Sources */,
+				FA263D8B21A3B2E900EBAFA3 /* PhotoLibraryCollectionViewController.swift in Sources */,
+				FA263D8F21A3B58B00EBAFA3 /* PhotoLibraryCollectionViewCell.swift in Sources */,
+				D712068121B764210083F373 /* StationsTableViewCell.swift in Sources */,
+				FA24B553219F62F700D1427C /* HomeViewController.swift in Sources */,
+				FA22236721A229CD0066373A /* ShowDetailsInformationBikeStationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA4111902192255C00C1FD27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4111912192255C00C1FD27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA4111952192255D00C1FD27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4111962192255D00C1FD27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4111992192255D00C1FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA41119A2192255D00C1FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA41119C2192255D00C1FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3465V32BF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CityBikes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThoangTran.CityBikes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA41119D2192255D00C1FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U3465V32BF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CityBikes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThoangTran.CityBikes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4111822192255C00C1FD27 /* Build configuration list for PBXProject "CityBikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4111992192255D00C1FD27 /* Debug */,
+				FA41119A2192255D00C1FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA41119B2192255D00C1FD27 /* Build configuration list for PBXNativeTarget "CityBikes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA41119C2192255D00C1FD27 /* Debug */,
+				FA41119D2192255D00C1FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA41117F2192255C00C1FD27 /* Project object */;
+}
